@@ -1,0 +1,49 @@
+#In this code I made the olympic rings using Python turtle. 
+import turtle
+t = turtle.Turtle()
+s = turtle.Screen()
+
+s.bgcolor("pink")
+
+#changing speed of the pen
+t.speed(500)
+
+#change pensize
+t.pensize(5)
+t.color("blue")
+t.penup()
+t.goto(-110,-25)
+t.pendown()
+t.circle(50)
+
+#black circle
+t.color("black")
+t.penup()
+t.goto(0,-25)
+t.pendown()
+t.circle(50)
+
+#red circle
+t.color("red")
+t.penup()
+t.goto(110,-25)
+t.pendown()
+t.circle(50)
+
+#yellow circle
+t.color("yellow")
+t.penup()
+t.goto(-50,-75)
+t.pendown()
+t.circle(50)
+
+#green circle
+t.color("green")
+t.penup()
+t.goto(60, -75)
+t.pendown()
+t.circle(50)
+
+
+#Homework: make a half or crescent moon: Make a big circle with one colkor then make another big circle but with background circle 
+
